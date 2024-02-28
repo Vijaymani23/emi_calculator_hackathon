@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="Main_TestNG.RegressionTesting">
+        <methods>
+          <include name="Calc1"/>
+          <include name="Calc2"/>
+          <include name="Calc3"/>
+          <include name="setup"/>
+          <include name="close_b"/>
+        </methods>
+      </class> <!-- Main_TestNG.RegressionTesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
